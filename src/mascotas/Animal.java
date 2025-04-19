@@ -7,10 +7,7 @@ import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
 
-/**
- *
- * @author 37119397
- */
+
 public abstract class Animal {
     protected String nombre;
     protected int edad;
