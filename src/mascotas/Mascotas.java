@@ -4,10 +4,7 @@
  */
 package mascotas;
 import javax.swing.JOptionPane;
-/**
- *
- * @author 37119397
- */
+
 public class Mascotas {
     public static void main(String[] args) {
         // Crear instancias de las clases hijas
