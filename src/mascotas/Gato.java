@@ -4,10 +4,7 @@
  */
 package mascotas;
 import javax.swing.JOptionPane;
-/**
- *
- * @author 37119397
- */
+
 public class Gato extends Animal {
 
     public Gato(String nombre, int edad) {
@@ -18,7 +15,7 @@ public class Gato extends Animal {
      public void hacerSonido() {
         // Ejecutar el sonido en un hilo separado
         new Thread(() -> {
-            reproducirSonido("C:\\Users\\37119397\\Documents\\NetBeansProjects\\Mascotas\\src\\Sonidos\\Gato.wav");
+            reproducirSonido("C:\\Users\\Documents\\NetBeansProjects\\Mascotas\\src\\Sonidos\\Gato.wav");
         }).start();
 
         // Mostrar ventana mientras suena
